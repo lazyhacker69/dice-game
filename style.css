@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+.back{
+    background-color: grey;
+}
+.headingtext{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.player-1-wins{
+    display: flex;
+    font-size: 4rem;
+    display: none;
+}
+.flag1 > img {
+    height: 100px;
+}
+.player-2-wins{
+    display: flex;
+    font-size: 4rem;
+    display: none;  
+}
+.flag2 > img {
+    height: 100px;
+}
+.resultbox{
+    display: flex;
+}
+.who-wins{
+    position: relative;
+    left: 40%;
+    font-size: 4rem;
+}
+.dice{
+    display: flex;
+    justify-content: space-around;
+}
+.dice1{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+}
+.dice-imag1 > img {
+    height: 250px;
+}
+
+.dice2{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+}
+.dice-imag2 > img {
+    height: 250px;
+}
+h1{
+    position : relative;
+    margin-top: 20px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+}
